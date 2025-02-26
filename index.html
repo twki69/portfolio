@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Portfolio</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to My Portfolio</h1>
+            <p class="typing-text"><b>I'm a Professional Developer</b></p>
+            <div class="hero-buttons">
+                <a href="#projects" class="cta-button">View My Work</a>
+                <a href="#contact" class="button">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2><center>About Me</center></h2>
+        <div class="about-content">
+            <div class="profile-image">
+                <img src="IMG-20250218-WA0010.jpg" alt="Your Profile Picture">
+            </div>
+            <div class="about-text">
+                <p>I am Twki, a Front-End Developer with expertise in HTML, CSS, JavaScript, C, and C++. I specialize in creating responsive and user-friendly web interfaces.
+
+                    Beyond development, I have experience in social media marketing and SEO, helping brands grow online.
+                    I also provide YouTube SEO services and run "Grow and Give", offering social media management and branding solutions.
+                    I’m passionate about technology and always eager to learn and innovate. Let’s connect! 🚀</p>
+                <div class="stats">
+                    <div class="stat-item">
+                        <h3>2+</h3>
+                        <p>Years Experience</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>50+</h3>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>20+</h3>
+                        <p>Happy Clients</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2><center>My Skills</center></h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <i class="fab fa-html5"></i>
+                <h3>HTML5</h3>
+                <p><B>Modern,semantic HTML with accessibility best practices</B> </p>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-css3-alt"></i>
+                <h3>CSS3</h3>
+                <p><B>Responsive design, animations, and modern layouts</B></p>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-js"></i>
+                <h3>JavaScript</h3>
+                <p><B>ES6+, DOM manipulation, and async programming</B></p>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-react"></i>
+                <h3>React</h3>
+                <p><B>Component-based architecture and state management</B></p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-database"></i>
+                <h3>Databases</h3>
+                <p><B>SQL and NoSQL database design and optimization</B></p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-mobile-alt"></i>
+                <h3>Responsive Design</h3>
+                <p><B>Mobile-first approach and cross-browser compatibility</B></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2><center>My Projects</center></h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <div class="project-image" style="background: linear-gradient(45deg, rgb(59, 130, 246), rgb(37, 99, 235));">
+                    <i class="fas fa-shopping-cart"></i>
+                </div>
+                <div class="project-content">
+                    <h3>E-Commerce Website</h3>
+                    <p>A fully responsive e-commerce platform built with modern web technologies.</p>
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <a href="#" class="project-link">View Project</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image" style="background: linear-gradient(45deg, rgb(34, 197, 94), rgb(22, 163, 74));">
+                    <i class="fas fa-tasks"></i>
+                </div>
+                <div class="project-content">
+                    <h3>Task Management App</h3>
+                    <p>A clean and intuitive task management application with real-time updates.</p>
+                    <div class="project-tags">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                    </div>
+                    <a href="#" class="project-link">View Project</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image" style="background: linear-gradient(45deg, rgb(249, 115, 22), rgb(234, 88, 12));">
+                    <i class="fas fa-cloud-sun"></i>
+                </div>
+                <div class="project-content">
+                    <h3>Weather Dashboard</h3>
+                    <p>A weather forecast dashboard with beautiful visualizations and daily updates.</p>
+                    <div class="project-tags">
+                        <span>JavaScript</span>
+                        <span>API</span>
+                        <span>Charts.js</span>
+                    </div>
+                    <a href="#" class="project-link">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-content">
+            <form id="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+            <div class="social-links">
+                <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
